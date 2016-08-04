@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*HEADER*/
+.container {
+  width: 1060px;
+  margin: 0 auto;
+  padding: 50px 48px 60px 46px;
+  box-shadow: 0 0 1px 2px #dbdbdb;
+    box-sizing: border-box;
+    position: relative;
+}
+.header_logo_link {
+  display: block;
+  width: 143px;
+}
+/*NAVIGATION*/
+.header_nav {
+  width: 965px;
+  height: 40px;
+  margin-top: 40px;
+  background: linear-gradient(to top, #454444, #5d5d5d);
+
+
+}
+.header_nav li {
+  height: 40px;
+  float: left;
+  display: block;
+  text-align: center;
+  line-height: 37px;
+
+}
+.header_nav li a {
+  height: 40px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-size:18px;
+  display: block;
+}
+.header-nav_link_main {
+  height: 26px;
+  width: 144px;
+}
+.header-nav_link_goods {
+  width: 100px;
+  background: linear-gradient(to top, #2f2f2f, #494949);
+  border-right: 1px solid #838383;
+  border-left: 1px solid #838383;
+}
+.header-nav_link_about {
+  height: 26px;
+  width: 166px;
+}
+.header-nav_link_contacts {
+  height: 26px;
+  width: 115px;
+}
+.header_nav li a:hover {
+  background: linear-gradient(to top, #2f2f2f, #494949);
+}
+.header-nav_link_about:hover {
+  border-right: 1px solid #838383;
+}
+.header-nav_link_contacts:hover {
+  border-right: 1px solid #838383;
+  border-left: 1px solid #838383;
+
+}
+/*NAVIGATION LEFT*/
+.content {
+  position: relative;
+  padding-top: 40px;
+}
+.sidebar_nav {
+  position: absolute;
+    top: 40;
+    left: 0;
+    width: 238px;
+    border: 1px solid #c8c8c8;
+    background-color: #fff;
+}
+.sidebar_nav a {
+  display: block;
+    width: 100%;
+    height: 40px;
+    padding-left: 22px;
+    border-bottom: 1px solid #c8c8c8;
+    color: #656363;
+    font-size: 13px;
+    line-height: 39px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.sidebar_nav_notes {
+  height: 39px;
+    padding-top: 1px;
+    letter-spacing: .3px;
+}
+.sidebar_nav_tabs {
+  line-height: 40px;
+}
+.sidebar_nav a:hover {
+  padding-left: 35px;
+    background-color: #f9f9f9;
+    color: #2c2c2c;
+    text-shadow: 1px 0 1px #cecece;
+}
+.side-nav_active-link {
+  padding-left: 55px;
+    background-color: #f9f9f9;
+    color: #2c2c2c;
+    text-shadow: 1px 0 1px #cecece;
+}
