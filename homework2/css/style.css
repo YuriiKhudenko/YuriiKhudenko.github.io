@@ -8,8 +8,7 @@
   margin: 0 auto;
   padding: 50px 48px 60px 46px;
   box-shadow: 0 0 1px 2px #dbdbdb;
-    box-sizing: border-box;
-    position: relative;
+  box-sizing: border-box;
 }
 .header_logo_link {
   display: block;
@@ -21,7 +20,7 @@
   height: 40px;
   margin-top: 40px;
   background: linear-gradient(to top, #454444, #5d5d5d);
-
+  t
 
 }
 .header_nav li {
@@ -30,7 +29,6 @@
   display: block;
   text-align: center;
   line-height: 37px;
-
 }
 .header_nav li a {
   height: 40px;
@@ -69,48 +67,90 @@
   border-left: 1px solid #838383;
 
 }
-/*NAVIGATION LEFT*/
-.content {
-  position: relative;
-  padding-top: 40px;
+/*SIDEMENU*/
+.side_menu {
+ margin-top: 41px;
+ float: left;
 }
-.sidebar_nav {
-  position: absolute;
-    top: 40;
-    left: 0;
-    width: 238px;
-    border: 1px solid #c8c8c8;
-    background-color: #fff;
+.side_menu li {
+  height: 40px;
+  width: 240px;
+  list-style-type: none;
+  font: 14px BrowalliaUPC;
+  border-top: 1px solid #c8c8c8;
+  border-left: 1px solid #c8c8c8;
+  border-right: 1px solid #c8c8c8;
 }
-.sidebar_nav a {
-  display: block;
-    width: 100%;
-    height: 40px;
-    padding-left: 22px;
-    border-bottom: 1px solid #c8c8c8;
-    color: #656363;
-    font-size: 13px;
-    line-height: 39px;
-    text-decoration: none;
-    box-sizing: border-box;
-}
-.sidebar_nav_notes {
-  height: 39px;
-    padding-top: 1px;
-    letter-spacing: .3px;
-}
-.sidebar_nav_tabs {
-  line-height: 40px;
-}
-.sidebar_nav a:hover {
+#phone,
+ .side_menu_phones {
   padding-left: 35px;
-    background-color: #f9f9f9;
-    color: #2c2c2c;
-    text-shadow: 1px 0 1px #cecece;
+  background-color: #f9f9f9;
 }
-.side-nav_active-link {
-  padding-left: 55px;
-    background-color: #f9f9f9;
-    color: #2c2c2c;
-    text-shadow: 1px 0 1px #cecece;
+.side_menu li a {
+  height: 27px;
+  display: block;
+  color: #7a7878;
+  text-decoration: none;
+  padding-top: 13px;
+  padding-left: 24px;
+}
+.side_menu li a:hover {
+  padding-left: 35px;
+  background-color: #f9f9f9;
+}
+.side_menu_car-goods {
+  border-bottom: 1px solid #c8c8c8;
+}
+/*CONTENT*/
+.inner_content {
+  width: 680px;
+  height: 400px;
+  margin: 40px 0 0 282px;
+  border: 1px solid #c8c8c8;
+}
+.content_image_bike {
+  width: 500px;
+  height: 307px;
+  margin: 37px 0 0 106px;
+}
+.content-text {
+  margin: 14px 0 0 327px;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+}
+/*FOOTER*/
+.footer_nav {
+  width: 965px;
+  height: 40px;
+  background-color: #e1e1e1;
+  margin: 21px 0 0 4px;
+  list-style-type: none;
+}
+.footer_nav li {
+  float: left;
+  font: 14px BrowalliaUPC;
+  line-height: 39px;
+}
+.footer_nav li a {
+  padding-left: 95px;
+  text-decoration: none;
+  display: block;
+  color: #5c5c5c;
+}
+#main,
+.footer-nav_link_main {
+  padding-left: 26px;
+}
+#goods,
+.footer-nav_link_goods {
+  text-decoration: underline;
+}
+.footer_nav li a:hover {
+  text-decoration: underline;
+}
+.copyright {
+  display: block;
+  padding: 9px 0 0 773px;
+  ont: 14px BrowalliaUPC;
+    color: #5c5c5c
 }
