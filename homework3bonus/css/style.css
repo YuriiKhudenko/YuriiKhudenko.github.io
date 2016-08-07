@@ -26,9 +26,10 @@ background-image: url("../img/background.jpg");
 }
 .header {
   display: flex;
-border: 1px solid #F7D275;
-/*height: 160px;*/
-margin: 44px 0 25px 0;
+  width: 100%;
+  max-width: 960px;
+  border: 1px solid #F7D275;
+  margin: 44px 0 25px 0;
 }
 .logo {
   align-self: flex-end;
