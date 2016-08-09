@@ -28,7 +28,6 @@ background-image: url("../img/background.jpg");
   display: flex;
   width: 100%;
   max-width: 960px;
-  border: 1px solid #F7D275;
   margin: 44px 0 5px 0;
   padding: 83px 0 0 0;
 }
@@ -69,7 +68,6 @@ text-align: center;
 display: flex;
 justify-content: center;
 margin-top: 100px;
-border: 1px solid red;
 }
 .countries a {
   color: #e1e1e1;
@@ -77,4 +75,10 @@ border: 1px solid red;
 }
 .footer_contacts p {
   font-size: 11px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+ .main {
+   flex-direction: column;
+   flex-wrap: wrap;
+ }
 }
