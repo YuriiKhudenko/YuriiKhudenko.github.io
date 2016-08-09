@@ -81,8 +81,14 @@ margin-top: 100px;
    flex-direction: row;
    flex-wrap: wrap;
  }
+ .contacts {
+   padding: 0 0 0 320px;
+ }
  .countries {
    flex: 1 1 300px;
    margin-bottom: 3px;
+ }
+ .footer {
+   margin-top: 50px;
  }
 }
