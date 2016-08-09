@@ -12,7 +12,7 @@ body {
 display: flex;
 width: 100%;
 max-width: 960px;
-height: 883px;
+height: auto;
 margin: 0 auto;
 justify-content: center;
 align-items:stretch;
@@ -29,7 +29,8 @@ background-image: url("../img/background.jpg");
   width: 100%;
   max-width: 960px;
   border: 1px solid #F7D275;
-  margin: 44px 0 25px 0;
+  margin: 44px 0 5px 0;
+  padding: 83px 0 0 0;
 }
 .logo {
   align-self: flex-end;
@@ -45,20 +46,35 @@ background-image: url("../img/background.jpg");
   font-size: 10px;
 }
 .main {
+max-width: 960px;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 align-self: flex-start;
 margin-bottom: 20px;
 padding: 2px 0px 0px 63px;
+text-align: center;
 }
 .countries {
   flex: 1 1 200px;
   text-align: center;
   display: flex;
   flex-flow: row wrap;
+  margin-bottom: 53px;
+}
+.text {
+  flex: 1 1 100px;
 }
 .footer {
-background: #F7D275;
-height: 100px;
+display: flex;
+justify-content: center;
+margin-top: 100px;
+border: 1px solid red;
+}
+.countries a {
+  color: #e1e1e1;
+  text-decoration: none;
+}
+.footer_contacts p {
+  font-size: 11px;
 }
