@@ -83,5 +83,6 @@ margin-top: 100px;
  }
  .countries {
    flex: 1 1 200px;
+   margin-right: 5px;
  }
 }
