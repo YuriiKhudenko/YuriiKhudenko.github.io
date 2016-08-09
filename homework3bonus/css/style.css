@@ -92,3 +92,14 @@ margin-top: 100px;
    margin-top: 50px;
  }
 }
+@media only screen and (min-width: 320px) {
+  .countries {
+    flex: 1 1 100px;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 1px;
+}
+  .footer {
+    margin-top: 25px;
+}
