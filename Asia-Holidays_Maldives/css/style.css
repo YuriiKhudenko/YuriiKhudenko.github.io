@@ -118,6 +118,8 @@ padding-left: 110px;
   margin: 0 auto;
   background-color: #303030;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 20;
 }
 .main_menu li {
   float: left;
@@ -178,3 +180,52 @@ ul.main_menu > li:hover > ul.submenu {
   padding-left: 38px;
   width: 86px;
 }
+.fon {
+  width: 1000px;
+  overflow: hidden;
+  margin: 0 auto;
+	}
+	.leftColumn {
+	width: 210px;
+	float: left;
+	background: #edeef0;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+  text-align: center;
+	}
+  .leftColumn h3 {
+    font-size: 18px;
+   padding: 10px 0 10px 0;
+   color: #424c43;
+  }
+	.centerColumn {
+	width: 579px;
+	float: left;
+	background: #ffffff;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+  text-align: center;
+	}
+	.rightColumn {
+	width: 210px;
+	float: left;
+	background: #edeef0;
+	padding-bottom: 20000px;
+	margin-bottom: -20000px;
+  text-align: center;
+	}
+  .rightColumn h3 {
+    font-size: 18px;
+   padding: 10px 0 10px 0;
+   color: #424c43;
+  }
+  footer {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  footer p {
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    padding: 10px 0;
+  }
