@@ -2,9 +2,10 @@
   margin: 0;
   padding: 0;
 }
+
 /*HEADER*/
 .container {
-  width: 1060px;
+  max-width: 1060px;
   margin: 0 auto;
   padding: 50px 48px 60px 46px;
   box-shadow: 0 0 1px 2px #dbdbdb;
@@ -16,7 +17,7 @@
 }
 /*NAVIGATION*/
 .header_nav {
-  width: 965px;
+  max-width: 965px;
   height: 40px;
   margin-top: 40px;
   background: linear-gradient(to top, #454444, #5d5d5d);
@@ -102,28 +103,45 @@
   border-bottom: 1px solid #c8c8c8;
 }
 /*CONTENT*/
-.inner_content {
-  width: 680px;
-  height: 400px;
-  margin: 40px 0 0 282px;
+.content {
+  max-width: 966px;
+}
+.container_bike {
+  float: right;
+  margin-top: 41px;
+  height: auto;
+  width: 63.86792452830189%;
   border: 1px solid #c8c8c8;
 }
-.content_image_bike {
-  width: 500px;
-  height: 307px;
-  margin: 37px 0 0 106px;
+.container_bike img {
+  display: block;
+  margin: 35px auto;
+  max-width: 100%;
+  height: auto;
 }
+
 .content-text {
-  margin: 14px 0 0 327px;
+  clear: both;
+  float: right;
+  width: 56.528302%;
   line-height: 26px;
   letter-spacing: 0.4px;
+  margin-top: 29px;
 }
 /*FOOTER*/
+footer {
+  clear: both;
+    background-color: #e1e1e1;
+    position: relative;
+    overflow: hidden;
+    margin-top: 17px;
+
+}
 .footer_nav {
-  width: 965px;
+  float: left;
+  max-width: 565px;
   height: 40px;
-  background-color: #e1e1e1;
-  margin: 21px 0 0 4px;
+  margin: 0 0 0 4px;
   list-style-type: none;
 }
 .footer_nav li {
@@ -149,8 +167,56 @@
   text-decoration: underline;
 }
 .copyright {
-  display: block;
-  padding: 9px 0 0 773px;
-  ont: 14px BrowalliaUPC;
-    color: #5c5c5c
+  float: right;
+  clear: right;
+  max-width: 189px;
+  padding-top: 10px;
+  margin-right: 15px;
+  color: #5c5c5c
+}
+
+@media (max-width: 790px) {
+ .side_menu {
+   float: none;
+   margin: 3px;
+ }
+ .side_menu li {
+   width: 100%;
+  display: inline-block;
+  text-align: center;
+ }
+ .container_bike {
+   float: none;
+   width: 100%;
+   margin-top: 11px;
+ }
+ #link_goods {
+   display: none;
+ }
+ .header_nav li {
+   width: 33.3%
+ }
+  .header_nav li a {
+    width: 100%;
+  }
+  .content-text {
+    width: 100%;
+  }
+  .footer_nav li {
+    width: 24%;
+  }
+  .footer_nav li a {
+    width: 100%;
+  }
+  .copyright {
+    display: none;
+  }
+}
+
+
+
+.clearfix::after {
+   content: "";
+   clear:both;
+   display: block;
 }
