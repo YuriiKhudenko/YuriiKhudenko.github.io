@@ -11,15 +11,18 @@
   box-shadow: 0 0 1px 2px #dbdbdb;
   box-sizing: border-box;
 }
-.header_logo_link {
+.header {
+  height: 84px;
+}
+/*.header_logo_link {
   display: block;
   width: 143px;
-}
+}*/
 /*NAVIGATION*/
 .header_nav {
   max-width: 965px;
   height: 40px;
-  margin-top: 40px;
+  /*margin-top: 40px;*/
   background: linear-gradient(to top, #454444, #5d5d5d);
   t
 
@@ -58,8 +61,10 @@
   width: 115px;
 }
 .header_nav li a:hover {
+  font-family: 'Londrina Outline', cursive;
   background: linear-gradient(to top, #2f2f2f, #494949);
 }
+
 .header-nav_link_about:hover {
   border-right: 1px solid #838383;
 }
@@ -148,16 +153,17 @@ footer {
   float: left;
   font: 14px BrowalliaUPC;
   line-height: 39px;
+  width: 140px;
 }
 .footer_nav li a {
-  padding-left: 95px;
+  /*padding-left: 95px;*/
   text-decoration: none;
-  display: block;
+  display: inline-block;
   color: #5c5c5c;
 }
 #main,
 .footer-nav_link_main {
-  padding-left: 26px;
+  margin-left: 26px;
 }
 #goods,
 .footer-nav_link_goods {
@@ -169,10 +175,13 @@ footer {
 .copyright {
   float: right;
   clear: right;
-  max-width: 189px;
+  width: 14.805383%;
   padding-top: 10px;
   margin-right: 15px;
   color: #5c5c5c
+}
+.copyright p {
+  font-size: 12px;
 }
 
 @media (max-width: 790px) {
@@ -211,9 +220,21 @@ footer {
   .copyright {
     display: none;
   }
+  .footer_nav {
+    width: 100%;
+  }
+  #main {
+    margin-left: 5px;
+  }
 }
-
-
+@media (max-width: 480px) {
+  .header_nav li a:hover {
+    background: linear-gradient(to top, #924320, #FF451C);
+  }
+  .header img {
+    margin-left: 25%;
+  }
+}
 
 .clearfix::after {
    content: "";
