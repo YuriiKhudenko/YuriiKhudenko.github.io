@@ -9,14 +9,13 @@ body {
     font-family: Tahoma, Geneva, sans-serif;
     font-size: 12px;
 }
-
+/*HEADER*/
 .header {
-  width: 1000px;
+  max-width: 1000px;
   height: 175px;
   background-image: url('../img/logo.png');
   background-repeat: no-repeat;
   margin: 0 auto;
-  position: relative;
 }
 .slogan {
 float: left;;
@@ -24,6 +23,8 @@ padding-top: 100px;
 padding-left: 110px;
 }
 .slogan p {
+  font-size: 14px;
+  font-family: 'Dancing Script', cursive;
   color: #128aa7;
 }
 .header_contacts {
@@ -31,9 +32,15 @@ padding-left: 110px;
   padding: 6px 20px 0 0;
 }
 .header_contacts span {
+  font-family: 'Dancing Script', cursive;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
   color: #67b4c7;
+}
+.header_contacts p,
+.header_contacts mail {
+  font-size: 12px;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 .header_contacts_item1 {
   display: block;
@@ -42,18 +49,20 @@ padding-left: 110px;
 .top_menu {
   float: right;
   clear: right;
-  padding: 28px 20px 0 0px;
+  padding: 20px 20px 0 0px;
 }
 .top_menu li {
   float: left;
   list-style: none;
   padding-left: 15px;
-  padding-top: 52px;
+  padding-top: 53px;
+  height: 23px;
 }
 .top_menu a {
   padding-top: 10px;
+  font-family: 'Cinzel Decorative', cursive;
   font-size: 10px;
-
+  text-decoration: none;
 }
 .top_menu_india {
   width: 42px;
@@ -106,16 +115,31 @@ padding-left: 110px;
    clear:both;
    display: block;
 }
+
+/*MALDIVES PHOTO*/
+
 .maldives_photo {
-  width: 1000px;
-  height: 237px;
-  background-image: url('../img/maldives-beach.png');
+  max-width: 1000px;
+  /*height: 237px;*/
+  margin: 0 auto;
+}
+.maldives_photo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper_ipad {
+  display: none;
+}
+.main_menu_ul {
+  max-width: 1000px;
+  height: 34px;
   margin: 0 auto;
 }
 .main_menu {
-  width: 1000px;
+  max-width: 1000px;
   height: 34px;
-  margin: 0 auto;
+  margin: -2px auto;
   background-color: #303030;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.4);
   position: relative;
@@ -124,23 +148,29 @@ padding-left: 110px;
 .main_menu li {
   float: left;
   list-style: none;
-  display: block;
-  width: 120px;
+  display: inline-block;
+  text-align: center;
+  width: 14.2%;
   /*padding-left: 22px;*/
   height: 34px;
   line-height: 30px;
   text-align: center;
 }
 .main_menu li a {
+  height: 34px;
   font-size: 14px;
+  font-family: 'Dancing Script', cursive;
   color: #fff;
   text-decoration: none;
   display: block;
-  height: 34px;
+}
+.main_menu li a:hover {
+  background-color: #0F7FA7;
+  transition: 0.7s;
 }
 .submenu {
   height: 129px;
-  width: 105px;
+  max-width: 105px;
   background-color: #303030;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -149,17 +179,18 @@ padding-left: 110px;
 }
 .submenu li {
   height: 25px;
-  width: 83px;
-  width: 105px;
+  /*width: 83px;*/
+  width: 100%;
   padding-left: 0px;
   text-align: center;
+
 }
 .submenu li a {
   height: 25px;
 }
-.submenu li a:hover {
+/*.submenu li a:hover {
   background-color: #0088FF;
-}
+}*/
 ul.main_menu > li:hover > ul.submenu {
     display: block;
 }
@@ -167,65 +198,190 @@ ul.main_menu > li:hover > ul.submenu {
   padding-left: 35px;
 }
 #main_menu_travel {
-  padding-left: 20px;
-  width: 105px;
+  padding-left: 5%;
+  max-width: 105px;
 }
 #main_menu_service {
-  padding-left: 50px;
+  padding-left: 3%;
+  width: 10%;
 }
 #main_menu_partners {
-  padding-left: 20px;
+  padding-left: 3%;
+  width: 11%;
 }
 #main_menu_about-us {
-  padding-left: 38px;
-  width: 86px;
+  padding-left: 1%;
+  max-width: 86px;
 }
-.fon {
-  width: 1000px;
-  overflow: hidden;
+#cst-reviews {
+  padding-left: 2%;
+}
+
+/*MAIN CONTENT*/
+
+.main_content {
+  max-width: 1000px;
+  height: auto;
   margin: 0 auto;
-	}
-	.leftColumn {
-	width: 210px;
-	float: left;
-	background: #edeef0;
-	padding-bottom: 20000px;
-	margin-bottom: -20000px;
+}
+.left_column {
+  float: left;
+  background: #edeef0;
+  width: 21%;
+  height: 604px;
   text-align: center;
-	}
-  .leftColumn h3 {
-    font-size: 18px;
-   padding: 10px 0 10px 0;
-   color: #424c43;
-  }
-	.centerColumn {
-	width: 579px;
-	float: left;
-	background: #ffffff;
-	padding-bottom: 20000px;
-	margin-bottom: -20000px;
+}
+.centr_column {
+  float: left;
+  width: 58%;
+  height: 604px;
+  background: #ffffff;
   text-align: center;
-	}
-	.rightColumn {
-	width: 210px;
-	float: left;
-	background: #edeef0;
-	padding-bottom: 20000px;
-	margin-bottom: -20000px;
+}
+.right_column {
+  float: right;
+  background: #edeef0;
+  width: 21%;
+  height: 604px;
   text-align: center;
-	}
-  .rightColumn h3 {
-    font-size: 18px;
-   padding: 10px 0 10px 0;
-   color: #424c43;
+}
+.left_column h3,
+.centr_column h3,
+.right_column h3 {
+  font-family: 'Contrail One', cursive;
+  font-size: 18px;
+  padding: 10px 0 10px 0;
+  color: #424c43;
+}
+.centr_column p {
+  font-size: 13px;
+  color: #424c43;
+  font-family: 'Buda', cursive;
+  padding: 10px 12px;
+}
+.asia_photo {
+  max-width: 92%;
+  margin: 0 auto;
+}
+.asia_photo img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+.left_column div {
+  width: 90%;
+  padding-bottom: 35px;
+  margin: 0 auto;
+}
+.left_column div a {
+  color: #2777E4;
+}
+.alf {
+  max-width: 189px;
+}
+.alf img {
+display: block;
+max-width: 100%;
+height: auto;
+margin: 0 auto;
+}
+.oasis {
+  max-width: 194px;
+}
+.oasis img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.right_column div {
+  padding-bottom: 20px;
+}
+.right_column div img {
+  padding-bottom: 5px;
+}
+.right_column div p a {
+  text-decoration: none;
+  color: #FD4C00;
+  font-size: 14px;
+  color: #FD4C00;
+  letter-spacing: 0.5px;
+}
+
+/*FOOTER*/
+
+footer {
+  max-width: 1000px;
+  margin: 0 auto;
   }
-  footer {
-    width: 1000px;
-    margin: 0 auto;
+footer p {
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  padding: 10px 0;
   }
-  footer p {
-    text-align: center;
-    font-size: 12px;
-    color: #fff;
-    padding: 10px 0;
+
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .main_menu_ul  {
+      display: none;
+    }
+
+    .wrapper_ipad {
+     display: block;
+     max-width: 1024px;
+     height: 54px;
+     background-color: #303030;
+     box-sizing: border-box;
+     margin-top: -3px;
+    }
+    .wrapper_ipad div {
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      background-color: #303030;
+    }
+    .one {
+      float: left;
+      width: 30%;
+      height: 50%;
+      background-color: #303030;
+    }
+    .two {
+      float: left;
+      width: 35%;
+      height: 50%;
+      background-color: #303030;
+    }
+    .three {
+
+      float: right;
+      width: 35%;
+      height: 50%;
+      background-color: #303030;
+    }
+    .four,
+    .five,
+    .six,
+    .seven {
+      float: left;
+      width: 25%;
+      height: 50%;
+      background-color: #303030;
+    }
+    .wrapper_ipad a {
+      height: 100%;
+      display: block;
+      font-family: 'Dancing Script', cursive;
+      text-align: center;
+      text-decoration: none;
+      line-height: 22px;
+      color: #fff;
+    }
+    .wrapper_ipad a:hover {
+      background-color: #0F7FA7;;
+      box-sizing: border-box;
+      transition: 0.7s;
+
+    }
   }
