@@ -107,8 +107,9 @@ padding-left: 110px;
   background-position: 16px 10px;
 }
 .top_menu_srilanka pre {
-  padding-top: 3px;
-  font-size: 10.4px;
+  padding-top: 1px;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 10px;
 }
 .clearfix::after {
   content: "";
@@ -330,11 +331,11 @@ footer p {
 
     .wrapper_ipad {
      display: block;
-     max-width: 1024px;
+     max-width: 1000px;
      height: 54px;
      background-color: #303030;
      box-sizing: border-box;
-     margin-top: -3px;
+     margin: -3px auto;
     }
     .wrapper_ipad div {
       box-sizing: border-box;
