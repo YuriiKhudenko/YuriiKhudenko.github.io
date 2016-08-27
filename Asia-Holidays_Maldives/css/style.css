@@ -396,7 +396,7 @@ footer p {
 
     }
   }
-  @media only screen and (min-width: 506px) and (max-width: 768px) {
+  @media only screen and (min-width: 480px) and (max-width: 768px) {
 
     .header {
       height: auto;
@@ -435,6 +435,9 @@ footer p {
     .top_menu-ul img {
       width: 100%;
       height: auto;
+    }
+    .top_menu-ul_srilanka img {
+      margin-left: 6px;
     }
     .top_menu_container li {
       float: left;
@@ -518,3 +521,126 @@ footer p {
       width: 50%;
     }
   }
+
+  @media only screen and (min-width : 320px) and (max-width : 480px) {
+
+    .top_menu_container {
+      display: block;
+      max-width: 768px;
+      height: 62px;
+      text-align: center;
+      background-color: #FFFFFF;
+      /*margin-bottom: 10px;*/
+    }
+    .top_menu-ul {
+      display: inline-block;
+      width: auto;
+      height: 62px;
+      margin: 5px auto;
+      }
+    .top_menu-ul img {
+      width: 100%;
+      height: auto;
+    }
+    .top_menu_container li {
+      float: left;
+      max-width: 39px;
+      list-style: none;
+      padding-left: 5px;
+    }
+    .top_menu-ul_india {
+      padding-left: 15%;
+      margin-left: -30px;
+
+    }
+    .top_menu-ul_srilanka img {
+      margin-left: 8px;
+    }
+    .top_menu-ul_maldives {
+      margin-left: 24px;
+    }
+    .top_menu-ul_maldives img {
+      margin-left: 5px;
+    }
+
+    .top_menu {
+      display: none;
+    }
+    .header_contacts {
+      display: none;
+    }
+    .main_menu_ul {
+      display: none;
+    }
+    .wrapper_ipad {
+     display: block;
+     max-width: 1000px;
+     height: 70px;
+     background-color: #303030;
+     box-sizing: border-box;
+     margin: -3px auto;
+    }
+    .wrapper_ipad div {
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      background-color: #303030;
+    }
+    .one {
+      float: left;
+      width: 30%;
+      height: 50%;
+      background-color: #303030;
+    }
+    .two {
+      float: left;
+      width: 35%;
+      height: 50%;
+      background-color: #303030;
+    }
+    .three {
+
+      float: right;
+      width: 35%;
+      height: 50%;
+      background-color: #303030;
+    }
+    .four,
+    .five,
+    .six,
+    .seven {
+      float: left;
+      width: 25%;
+      height: 50%;
+      background-color: #303030;
+    }
+    .wrapper_ipad a {
+      height: 100%;
+      display: block;
+      font-family: 'Dancing Script', cursive;
+      text-align: center;
+      text-decoration: none;
+      line-height: 26px;
+      color: #fff;
+    }
+    .wrapper_ipad a:hover {
+      background-color: #0F7FA7;;
+      box-sizing: border-box;
+      transition: 0.7s;
+    }
+    .main_content {
+      display: none;
+    }
+    .main_content_middle {
+      display: block;
+    }
+    .centr_column {
+      float: none;
+      width: 100%;
+    }
+    .left_column {
+      width: 50%;
+    }
+    .right_column {
+      width: 50%;
+    }
+}
