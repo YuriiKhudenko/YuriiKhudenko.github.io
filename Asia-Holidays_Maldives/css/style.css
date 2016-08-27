@@ -428,7 +428,7 @@ footer p {
     .top_menu_container {
       display: block;
       max-width: 768px;
-      height: 62px;
+      height: 70px;
       text-align: center;
       background-color: #FFFFFF;
     }
@@ -525,6 +525,12 @@ footer p {
     .centr_column {
       float: none;
       width: 100%;
+    }
+    .centr_column p {
+        font-size: 14px;
+        color: #424c43;
+        font-family: 'Poppins', serif;
+        padding: 5px 0px;
     }
     .left_column {
       width: 50%;
