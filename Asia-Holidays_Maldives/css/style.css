@@ -6,7 +6,7 @@ body {
     background-color: #0c739f;
     background-image: url('../img/bg.jpg');
     background-repeat: repeat-x;
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: 'Popins', Tahoma, Geneva, sans-serif;
     font-size: 12px;
 }
 /*HEADER*/
@@ -24,7 +24,7 @@ padding-left: 110px;
 }
 .slogan p {
   font-size: 14px;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Poppins', sans-serif;
   color: #128aa7;
 }
 .header_contacts {
@@ -32,7 +32,7 @@ padding-left: 110px;
   padding: 6px 20px 0 0;
 }
 .header_contacts span {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 14px;
   color: #67b4c7;
@@ -40,7 +40,7 @@ padding-left: 110px;
 .header_contacts p,
 .header_contacts mail {
   font-size: 12px;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .header_contacts_item1 {
   display: block;
@@ -49,7 +49,7 @@ padding-left: 110px;
 .top_menu {
   float: right;
   clear: right;
-  padding: 20px 20px 0 0px;
+  padding: 3px 20px 0 0px;
 }
 .top_menu li {
   float: left;
@@ -60,7 +60,7 @@ padding-left: 110px;
 }
 .top_menu a {
   padding-top: 10px;
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Poppins', sans-serif;
   font-size: 10px;
   text-decoration: none;
 }
@@ -114,7 +114,7 @@ padding-left: 110px;
 }
 .top_menu_srilanka pre {
   padding-top: 1px;
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Poppins', sans-serif;
   font-size: 10px;
 }
 .clearfix::after {
@@ -166,7 +166,7 @@ padding-left: 110px;
 .main_menu li a {
   height: 34px;
   font-size: 14px;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   text-decoration: none;
   display: block;
@@ -257,15 +257,15 @@ ul.main_menu > li:hover > ul.submenu {
 .left_column h3,
 .centr_column h3,
 .right_column h3 {
-  font-family: 'Contrail One', cursive;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   padding: 10px 0 10px 0;
   color: #424c43;
 }
 .centr_column p {
-  font-size: 13px;
+  font-size: 14px;
   color: #424c43;
-  font-family: 'Buda', cursive;
+  font-family: 'Poppins', serif;
   padding: 10px 12px;
 }
 .asia_photo {
@@ -326,23 +326,25 @@ footer {
   }
 footer p {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   color: #fff;
   padding: 10px 0;
   }
 
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
+    .top_menu-ul_srilanka pre {
+      padding-top: 1px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 10px;
+    }
     .main_menu_ul  {
       display: none;
     }
-
-
-
     .wrapper_ipad {
      display: block;
      max-width: 1000px;
-     height: 54px;
+     height: 58px;
      background-color: #303030;
      box-sizing: border-box;
      margin: -3px auto;
@@ -383,10 +385,10 @@ footer p {
     .wrapper_ipad a {
       height: 100%;
       display: block;
-      font-family: 'Dancing Script', cursive;
+      font-family: 'Poppins', sans-serif;
       text-align: center;
       text-decoration: none;
-      line-height: 22px;
+      line-height: 25px;
       color: #fff;
     }
     .wrapper_ipad a:hover {
@@ -402,7 +404,11 @@ footer p {
       height: auto;
       padding-bottom: 10px;
     }
-
+    .top_menu-ul_srilanka pre {
+      padding-top: 1px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 10px;
+    }
     .main_menu_ul {
       display: none;
     }
@@ -426,6 +432,7 @@ footer p {
       text-align: center;
       background-color: #FFFFFF;
     }
+
     .top_menu-ul {
       display: inline-block;
       width: auto;
@@ -444,6 +451,11 @@ footer p {
       max-width: 39px;
       list-style: none;
       padding-left: 35px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 9px;
+    }
+    .top_menu_container li a {
+      text-decoration: none;
     }
     .top_menu-ul_india {
       padding-left: 18%;
@@ -493,7 +505,7 @@ footer p {
     .wrapper_ipad a {
       height: 100%;
       display: block;
-      font-family: 'Dancing Script', cursive;
+      font-family: 'Poppins', sans-serif;
       text-align: center;
       text-decoration: none;
       line-height: 26px;
@@ -547,14 +559,23 @@ footer p {
       max-width: 39px;
       list-style: none;
       padding-left: 5px;
+      text-decoration: none;
     }
     .top_menu-ul_india {
       padding-left: 15%;
       margin-left: -30px;
-
     }
     .top_menu-ul_srilanka img {
       margin-left: 8px;
+    }
+    .top_menu_container li a {
+      text-decoration: none;
+    }
+    .top_menu-ul_srilanka pre {
+      display: inline-block;
+      padding-top: 0px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 11.7px;
     }
     .top_menu-ul_maldives {
       margin-left: 24px;
@@ -616,10 +637,10 @@ footer p {
     .wrapper_ipad a {
       height: 100%;
       display: block;
-      font-family: 'Dancing Script', cursive;
+      font-family: 'Poppins', sans-serif;
       text-align: center;
       text-decoration: none;
-      line-height: 26px;
+      line-height: 31px;
       color: #fff;
     }
     .wrapper_ipad a:hover {
@@ -636,11 +657,25 @@ footer p {
     .centr_column {
       float: none;
       width: 100%;
+      height: auto;
+    }
+    .centr_column p {
+      padding: 0;
     }
     .left_column {
       width: 50%;
     }
     .right_column {
       width: 50%;
+    }
+    .asia_photo {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    .asia_photo img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
     }
 }
