@@ -525,6 +525,7 @@ footer p {
     .centr_column {
       float: none;
       width: 100%;
+      height: 610px;
     }
     .centr_column p {
         font-size: 14px;
