@@ -397,6 +397,9 @@ footer p {
       transition: 0.7s;
 
     }
+    .centr_column {
+      height: auto;
+    }
   }
   @media only screen and (min-width: 480px) and (max-width: 768px) {
 
